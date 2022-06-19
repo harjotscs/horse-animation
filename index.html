@@ -3001,9 +3001,23 @@
         -webkit-animation: tail-section-3 var(--speed) linear infinite;
         animation: tail-section-3 var(--speed) linear infinite;
       }
+      .info {
+        position: absolute;
+        left: 0.1rem;
+        top: -50px;
+      }
+      .info-text {
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 0 0 10px #000;
+      }
     </style>
   </head>
   <body>
+    <div class="info">
+      <span class="info-text"><p>Regained</p></span>
+    </div>
     <input type="checkbox" id="toggle" />
     <label for="toggle">
       <div class="floor"></div>
